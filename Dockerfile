@@ -1,6 +1,6 @@
 FROM quay.io/pypa/manylinux2010_x86_64
-ENV CMAKEVER="3.16.1" 
-ENV GSLVER="2.5"
+ENV CMAKEVER="3.16.4" 
+ENV GSLVER="2.6"
 ENV HDF5VER="1.10.5"
 RUN yum update && yum -y install openssl-devel && \
     curl -O https://cmake.org/files/v3.16/cmake-${CMAKEVER}.tar.gz && \
